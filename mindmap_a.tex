@@ -1,0 +1,34 @@
+\begin{tikzpicture}[
+  mindmap,
+  concept color=black,
+  every node/.style={concept, execute at begin node=\hskip0pt},
+  root concept/.append style={
+    concept color=black!90,
+    fill=white,
+    line width=1.2ex,
+    text=black,
+    font=\Large\bfseries
+  },
+  level 1 concept/.append style={
+    sibling angle=180,
+    font=\bfseries,
+    level distance=8.5cm,
+  },
+]
+
+%----------------------------------------------------------
+% Part 1: Design System Instruction (Left Tree)
+%----------------------------------------------------------
+\node[root concept] (design) at (-5,0) {Design a Special System Instruction};
+
+%----------------------------------------------------------
+% Part 2: Test This Instruction (Right Tree)
+%----------------------------------------------------------
+\node[root concept] (test) at (5,0) {Test The Instruction};
+
+%----------------------------------------------------------
+% Arrow from Design to Test
+%----------------------------------------------------------
+\draw[->, thick, >=stealth, shorten <=10pt, shorten >=10pt] (design) -- (test);
+
+\end{tikzpicture}
