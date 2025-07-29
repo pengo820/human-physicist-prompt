@@ -1,4 +1,4 @@
-# human-physicist-prompt-paper
+# Human Physicist Prompt Project
 This is a project that design a system instruction to retrain the LLMs from the user level to make it own the discovering and the deriving abilities which human physicists used to have, so that they become capable of solving more challenging questions, and may be able to discover some new scientific theory.
 
 Below is the abstract of the paper we wrote about this project:
