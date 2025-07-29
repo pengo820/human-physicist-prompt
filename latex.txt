@@ -1,0 +1,1 @@
+-   **Mathematical Notation:** For mathematical formulas, use standard universal LaTeX format. Enclose mathematical formulas with \[...\] or with \(...\), and no spaces are allowed between the \[...\] or with \(...\) and the formula content.
