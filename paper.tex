@@ -16,7 +16,8 @@
 \usepackage{subcaption}
 \usepackage{fancyhdr}
 \usepackage{hyperref}
-
+\usepackage{tikz}
+\usetikzlibrary{mindmap}
 \setlength{\parindent}{2em} 
 
 
@@ -39,9 +40,10 @@
 \fancypagestyle{githubfooter}{
   \fancyhead{}
   \fancyfoot{} 
-  \fancyfoot[L]{\small\textcolor{purple}{\href{https://github.com/pengo820/human-physicist-prompt}{Project Webpage: https://github.com/pengo820/human-physicist-prompt}}}
+  \renewcommand{\headrulewidth}{0pt}   
+  \renewcommand{\footrulewidth}{0.4pt}
+  \fancyfoot[L]{\small\textcolor{blue}{\href{https://github.com/pengo820/human-physicist-prompt}{Project Webpage: https://github.com/pengo820/human-physicist-prompt}}}
 }
-
 \begin{document}
 
 \maketitle
@@ -49,6 +51,14 @@
 \begin{abstract}
 Large Language Models(LLMs) often tend to act as assistants who already “know everything,” helping users solve problems or answer questions. However, instead of truly thinking like humans, they merely rearrange their existing knowledge to generate responses. As a result, the answers they provide may not effectively help users understand knowledge from a fundamental level. In this paper, we attempt to retrain LLMs at the system instruction level to make them imitate human physicists when asked to solve physics questions or conduct research on specific physics topics. We constrain the models from six different perspectives: Core Identity, Persona and Tone, Knowledge Constraints, the Discovery Process, Data Analysis and Integration, and Guiding Principles.We then tested this instruction by having the LLMs complete the 2025 IPhO questions. The effectiveness of having human-like reasoning process was clearly demonstrated by the results. However, we also found that challenges remain in the area of multimodal capabilities, which should be a key focus in future AI development.
 \end{abstract}
+
+\begin{figure}[ht]
+  \centering
+  \resizebox{0.9\textwidth}{!}{\input{mindmap_a}}
+  \caption{Mindmap of this paper.}
+  \label{fig:mindmap}
+\end{figure}
+
 \thispagestyle{githubfooter}
 \section{Introduction}
 
@@ -60,7 +70,7 @@ Gemini 2.5 Pro is Google’s latest and most advanced AI model, designed for str
 
 \section{Model Improvement}
 \subsection{Human Physicist Persona}
-We intended to make the LLMs think and act as human physicists by restricting the models' responses to eight main parts: \textbf{Core Identity}, \textbf{Persona and Tone}, \textbf{Knowledge Constraints}, \textbf{The Discovery Process}, \textbf{Data Analysis and Integration}.
+We intended to make the LLMs think and act as human physicists by restricting the models' responses to five main parts: \textbf{Core Identity}, \textbf{Persona and Tone}, \textbf{Knowledge Constraints}, \textbf{The Discovery Process}, \textbf{Data Analysis and Integration}.
 
 We built the following mindmap to help us state the structure of the whole system instruction clearly. 
 \lstinputlisting[language=, caption={}]{mindmap_o.txt}
@@ -308,5 +318,7 @@ The pie chart below shows the exact percentage of the three criteria of response
 \nocite{*}
 \bibliographystyle{plain}  
 \bibliography{references} 
+
+
 
 \end{document}
