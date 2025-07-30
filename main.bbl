@@ -1,0 +1,77 @@
+\begin{thebibliography}{10}
+
+\bibitem{binz2025foundation}
+Marcel Binz, Elif Akata, Matthias Bethge, Franziska Br{\"a}ndle, Fred Callaway,
+  Julian Coda-Forno, Peter Dayan, Can Demircan, Maria~K. Eckstein, No{\'e}mi
+  {\'E}ltet{\H{o}}, Thomas~L. Griffiths, Susanne Haridi, Akshay~K. Jagadish,
+  Li~Ji-An, Alexander Kipnis, Sreejan Kumar, Tobias Ludwig, Marvin Mathony,
+  Marcelo Mattar, Alireza Modirshanechi, Surabhi~S. Nath, Joshua~C. Peterson,
+  Milena Rmus, Evan~M. Russek, Tankred Saanum, Johannes~A. Schubert, Luca
+  M.~Schulze Buschoff, Nishad Singhi, Xin Sui, Mirko Thalmann, Fabian~J. Theis,
+  Vuong Truong, Vishaal Udandarao, Konstantinos Voudouris, Robert Wilson,
+  Kristin Witte, Shuchen Wu, Dirk~U. Wulff, Huadong Xiong, and Eric Schulz.
+\newblock A foundation model to predict and capture human cognition.
+\newblock {\em Nature}, 630(8032):1--15, 2025.
+
+\bibitem{gemini25pro2025}
+{Google DeepMind}.
+\newblock Gemini v2.5 technical report.
+\newblock Technical report, Google DeepMind, 2025.
+\newblock Accessed: 2025-07-26.
+
+\bibitem{huang2025gemini25procapable}
+Yichen Huang and Lin~F. Yang.
+\newblock Gemini 2.5 pro capable of winning gold at imo 2025, 2025.
+
+\bibitem{lawsen2025commentillusionthinkingunderstanding}
+A.~Lawsen.
+\newblock Comment on the illusion of thinking: Understanding the strengths and
+  limitations of reasoning models via the lens of problem complexity, 2025.
+
+\bibitem{li2025bridgevlainputoutputalignmentefficient}
+Peiyan Li, Yixiang Chen, Hongtao Wu, Xiao Ma, Xiangnan Wu, Yan Huang, Liang
+  Wang, Tao Kong, and Tieniu Tan.
+\newblock Bridgevla: Input-output alignment for efficient 3d manipulation
+  learning with vision-language models, 2025.
+
+\bibitem{liu2025trivlatriplesystembasedunifiedvisionlanguageaction}
+Zhenyang Liu, Yongchong Gu, Sixiao Zheng, Xiangyang Xue, and Yanwei Fu.
+\newblock Trivla: A triple-system-based unified vision-language-action model
+  for general robot control, 2025.
+
+\bibitem{shojaee2025illusionthinkingunderstandingstrengths}
+Parshin Shojaee, Iman Mirzadeh, Keivan Alizadeh, Maxwell Horton, Samy Bengio,
+  and Mehrdad Farajtabar.
+\newblock The illusion of thinking: Understanding the strengths and limitations
+  of reasoning models via the lens of problem complexity, 2025.
+
+\bibitem{sikka2025hallucinationstationsbasiclimitations}
+Varin Sikka and Vishal Sikka.
+\newblock Hallucination stations: On some basic limitations of
+  transformer-based language models, 2025.
+
+\bibitem{song2025rationalvlarationalvisionlanguageactionmodel}
+Wenxuan Song, Jiayi Chen, Wenxue Li, Xu~He, Han Zhao, Can Cui, Pengxiang
+  Ding~Shiyan Su, Feilong Tang, Xuelian Cheng, Donglin Wang, Zongyuan Ge, Xinhu
+  Zheng, Zhe Liu, Hesheng Wang, and Haoang Li.
+\newblock Rationalvla: A rational vision-language-action model with dual
+  system, 2025.
+
+\bibitem{wang2024agentworkflowmemory}
+Zora~Zhiruo Wang, Jiayuan Mao, Daniel Fried, and Graham Neubig.
+\newblock Agent workflow memory, 2024.
+
+\bibitem{xiang2025seephysdoesseeinghelp}
+Kun Xiang, Heng Li, Terry~Jingchen Zhang, Yinya Huang, Zirong Liu, Peixin Qu,
+  Jixi He, Jiaqi Chen, Yu-Jie Yuan, Jianhua Han, Hang Xu, Hanhui Li, Mrinmaya
+  Sachan, and Xiaodan Liang.
+\newblock Seephys: Does seeing help thinking? -- benchmarking vision-based
+  physics reasoning, 2025.
+
+\bibitem{zhu2025reasoningsuperpositiontheoreticalperspective}
+Hanlin Zhu, Shibo Hao, Zhiting Hu, Jiantao Jiao, Stuart Russell, and Yuandong
+  Tian.
+\newblock Reasoning by superposition: A theoretical perspective on chain of
+  continuous thought, 2025.
+
+\end{thebibliography}
